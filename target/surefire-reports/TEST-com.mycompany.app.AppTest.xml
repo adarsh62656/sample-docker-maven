@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.app.AppTest" time="0.035" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.app.AppTest" time="0.032" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="20"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/presidio/Documents/maven/my-maven-docker-project/target/test-classes:/Users/presidio/Documents/maven/my-maven-docker-project/target/classes:/Users/presidio/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/presidio/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.class.path" value="/Users/presidio/Documents/maven/my-maven-docker-project/target/test-classes:/Users/presidio/Documents/maven/my-maven-docker-project/target/classes:/Users/presidio/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/presidio/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/presidio/.m2/repository/com/amazonaws/aws-lambda-java-runtime-interface-client/2.3.1/aws-lambda-java-runtime-interface-client-2.3.1.jar:/Users/presidio/.m2/repository/com/amazonaws/aws-lambda-java-serialization/1.1.2/aws-lambda-java-serialization-1.1.2.jar:/Users/presidio/.m2/repository/com/amazonaws/aws-lambda-java-events/3.1.0/aws-lambda-java-events-3.1.0.jar:/Users/presidio/.m2/repository/joda-time/joda-time/2.6/joda-time-2.6.jar:/Users/presidio/.m2/repository/com/amazonaws/aws-lambda-java-core/1.2.1/aws-lambda-java-core-1.2.1.jar:/Users/presidio/.m2/repository/com/amazonaws/aws-lambda-java-log4j2/1.2.0/aws-lambda-java-log4j2-1.2.0.jar:/Users/presidio/.m2/repository/org/apache/logging/log4j/log4j-core/2.13.2/log4j-core-2.13.2.jar:/Users/presidio/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.2/log4j-api-2.13.2.jar:"/>
     <property name="java.vm.vendor" value="Homebrew"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
@@ -12,10 +12,10 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/20.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/presidio/Documents/maven/my-maven-docker-project/target/surefire/surefirebooter5202879235534170359.jar /Users/presidio/Documents/maven/my-maven-docker-project/target/surefire 2023-06-07T12-46-52_160-jvmRun1 surefire9207843618700203941tmp surefire_0366104761321047711tmp"/>
+    <property name="sun.java.command" value="/Users/presidio/Documents/maven/my-maven-docker-project/target/surefire/surefirebooter8524551177714717545.jar /Users/presidio/Documents/maven/my-maven-docker-project/target/surefire 2023-06-08T02-34-25_367-jvmRun1 surefire9433056365952988251tmp surefire_01549446493252063661tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/Users/presidio/Documents/maven/my-maven-docker-project/target/test-classes:/Users/presidio/Documents/maven/my-maven-docker-project/target/classes:/Users/presidio/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/presidio/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/presidio/Documents/maven/my-maven-docker-project/target/test-classes:/Users/presidio/Documents/maven/my-maven-docker-project/target/classes:/Users/presidio/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/presidio/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/presidio/.m2/repository/com/amazonaws/aws-lambda-java-runtime-interface-client/2.3.1/aws-lambda-java-runtime-interface-client-2.3.1.jar:/Users/presidio/.m2/repository/com/amazonaws/aws-lambda-java-serialization/1.1.2/aws-lambda-java-serialization-1.1.2.jar:/Users/presidio/.m2/repository/com/amazonaws/aws-lambda-java-events/3.1.0/aws-lambda-java-events-3.1.0.jar:/Users/presidio/.m2/repository/joda-time/joda-time/2.6/joda-time-2.6.jar:/Users/presidio/.m2/repository/com/amazonaws/aws-lambda-java-core/1.2.1/aws-lambda-java-core-1.2.1.jar:/Users/presidio/.m2/repository/com/amazonaws/aws-lambda-java-log4j2/1.2.0/aws-lambda-java-log4j2-1.2.0.jar:/Users/presidio/.m2/repository/org/apache/logging/log4j/log4j-core/2.13.2/log4j-core-2.13.2.jar:/Users/presidio/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.2/log4j-api-2.13.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/presidio"/>
     <property name="user.language" value="en"/>
@@ -29,7 +29,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/presidio/Documents/maven/my-maven-docker-project/target/surefire/surefirebooter5202879235534170359.jar"/>
+    <property name="surefire.real.class.path" value="/Users/presidio/Documents/maven/my-maven-docker-project/target/surefire/surefirebooter8524551177714717545.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="20.0.1"/>
